@@ -1,7 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = "dist/client"
-  functions = "netlify-functions"
+  command = "ng build --configuration=production"
+  publish = "dist/tienda-muebles"
+  functions = "netlify/functions"
 [dev]
   command = "npm run dev"
 
