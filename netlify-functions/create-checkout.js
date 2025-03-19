@@ -1,4 +1,4 @@
-const stripe = require('stripe')('sk_test_51PkQ4GRw4RJUah63IjAUmTN5UiIen2k2ioWbxbGWFBHLr2kW8W6SlLUVwlBVw9USXj0N1hI5yfRrK26aKJXwf3de00I8Yi5nEK'); // Usa tu clave secreta real aquí
+const stripe = require('stripe')('sk_test_51PkQ4GRw4RJUah63IjAUmTN5UiIen2k2ioWbxbGWFBHLr2kW8W6SlLUVwlBVw9USXj0N1hI5yfRrK26aKJXwf3de00I8Yi5nEK'); // Usa tu clave secreta real aquí, esto es uno de pruebas, no valido, utiliza variables de entorno
 
 exports.handler = async (event) => {
   try {
